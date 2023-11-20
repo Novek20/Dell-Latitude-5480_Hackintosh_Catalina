@@ -1,6 +1,4 @@
-# Dell Latitude 5480 Hackintosh EFI - macOS 11 and 12
-**Introducing my new hack: Dell Latitude 5480 running macOS!**
-
+# Dell Latitude 5480 Hackintosh EFI - macOS 10.15
 **Can be used for the Dell Latitude 5280/5580 and the Dell Precision 3520 as well (w/ some modifications)**
 
 OpenCore bootloader for stability.
@@ -8,24 +6,14 @@ OpenCore bootloader for stability.
 **NOTE:**
 * Use [**one-key-hidpi**](https://github.com/xzhih/one-key-hidpi) to get HiDPI support in macOS
 * Please [**disable your CFG Lock**](/Disable_CFG_Lock.md) and [**adjust your DVMT**](/Adjusting_DVMT.md).
-* The EFI was designed to boot Monterey, to boot Big Sur you will need to make some changes with your kext folder as described in the release's description since 1.2.
 
-![screenshot with neofetch](https://user-images.githubusercontent.com/73286927/134603078-0e84dd30-b772-41c0-83b8-c9c946951edd.png)
-**Running fine on macOS Big Sur. Monterey should work, but you'll need to update your Wi-Fi kext.**
+![Screen-Shot-2023-11-20-at-2](https://github.com/Novek20/Dell-Latitude-5480_Hackintosh_Catalina/assets/47246274/31af2ded-e310-458c-94f1-172447423db8)
 
-![Dual Display - VGA](https://user-images.githubusercontent.com/73286927/134603760-0973d4ed-5a09-480b-8e1b-0e6785ccb6e9.jpg)
-**Dual Display with VGA port** (somehow it worked)
-
-![Dual Display - USB-C](https://user-images.githubusercontent.com/73286927/134603810-fbbc3409-e3d5-409d-a0c5-0a340c62ee3f.jpg)
-**Dual Display with USB-C hub** (HDMI also works and it outputs the same image)
-
-## Laptop Specs!
-![image1.png](https://cdn.discordapp.com/attachments/839427463334461490/891240486684209152/image1.jpg)
 
 **Model: Dell Latitude 5480**
-- **CPU:** Intel® Core™ i5-7200U
+- **CPU:** Intel® Core™ i5-7300U
 - **GPU:** Intel® HD Graphics 620
-- **RAM:** 8GB/16GB DDR4 2133MHz
+- **RAM:** 8GB DDR4 2133MHz
 - **Ethernet:** Intel® Ethernet I219-LM
 - **Wi-Fi:** Intel® Dual Band Wireless-AC 8265
 - **Sound Card:** ALC256 (layout-id `69` with [**ALC256.kext**](https://github.com/ic005k/ALC256))
